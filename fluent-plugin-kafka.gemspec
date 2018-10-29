@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Hidemasa Togashi", "Masahiro Nakagawa"]
-  gem.email         = ["togachiro@gmail.com", "repeatedly@gmail.com"]
+  gem.email         = ["sandeep.kotha@live.com"]
   gem.description   = %q{Fluentd plugin for Apache Kafka > 0.8}
   gem.summary       = %q{Fluentd plugin for Apache Kafka > 0.8}
   gem.homepage      = "https://github.com/fluent/fluent-plugin-kafka"
@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "fluent-plugin-kafka"
+  gem.name          = "sk-fluent-plugin-kafka"
   gem.require_paths = ["lib"]
   gem.version       = '0.8.0'
   gem.required_ruby_version = ">= 2.1.0"
